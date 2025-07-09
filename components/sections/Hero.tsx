@@ -8,7 +8,7 @@ import Header from '@/components/layout/Header';
 export default function Hero() {
   return (
     <div className="relative min-h-screen hero-gradient">
-      <Header />
+      {/* <Header /> */}
       
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -34,8 +34,8 @@ export default function Hero() {
                 </Button>
               </Link>
               
-              <Link href="/discover">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4">
+              <Link href="/login">
+                <Button size="lg" variant="ghost" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4">
                   Find Food Near You
                 </Button>
               </Link>
