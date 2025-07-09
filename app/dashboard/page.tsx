@@ -135,7 +135,7 @@ export default function Dashboard() {
           {/* Recent Activity */}
           <Card>
             <CardHeader>
-              <CardTitle>Recent Activity</CardTitle>
+              <CardTitle>Your Post</CardTitle>
               <CardDescription>Your latest food sharing activities</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
