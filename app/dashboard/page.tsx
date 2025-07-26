@@ -116,7 +116,7 @@ export default function Dashboard() {
             </CardContent>
           </Card>
 
-          <Link href="/share" className="block">
+          <Link href="/post" className="block">
             <Card className="food-card bg-primary text-white hover:bg-primary/90">
               <CardContent className="p-6">
                 <div className="flex items-center justify-between">
